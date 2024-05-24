@@ -1,0 +1,92 @@
+/* General styles */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, rgba(173, 216, 230, 0.5), #000);
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Header styles */
+.App-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  font-size: 1.5em;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+.category-title {
+  text-align: left;
+  font-size: 1.5em;
+  margin: 20px 0;
+  padding-left: 10px;
+}
+
+.projects {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-left: 10px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.projects::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}
+
+.project {
+  background-color: #f4f4f4;
+  color: black;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: 380px;
+  height: 380px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top; /* This ensures the projects align at the top */
+}
+
+.project .thumbnail {
+  background-color: #ddd;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+

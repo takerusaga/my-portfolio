@@ -1,0 +1,49 @@
+/* src/styles/ProjectPage.css */
+
+.project-page {
+    padding: 20px;
+  }
+  
+  .project-page nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .project-page nav a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .project-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .project-page .overview,
+  .project-page .details,
+  .project-page .media {
+    margin-bottom: 20px;
+  }
+  
+  .project-page .details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .project-page .details li {
+    margin-bottom: 10px;
+  }
+  
+  .project-page .media img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .project-page .video video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
