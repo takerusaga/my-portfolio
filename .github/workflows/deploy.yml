@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # ここでデプロイしたいブランチを指定します
+      - gh-pages  # ここでデプロイしたいブランチを指定します
 
 jobs:
   build-and-deploy:
